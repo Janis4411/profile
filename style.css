@@ -1,0 +1,85 @@
+body {
+  background-color: rgba(210,210,210,0.9);
+}
+
+.dark-blue-color {
+  color: #575F7D;
+}
+
+.light-green-color {
+  color: #7ECE90;
+}
+
+.font-design-lighter {
+  font-family: 'Oswald';
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.font-design-bold {
+  font-family: 'Oswald';
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.card {
+  background-color: white;
+  color: white;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 9px;
+  margin: 15px;
+  box-shadow: 10px 5px 5px lightgrey;
+}
+
+.container {
+  text-align: center;
+  background: rgba(244,244,244,0.7);
+  padding: 10px;
+  border-radius: 9px;
+  border: 1px solid lightgrey;
+  margin: 0 auto;
+}
+
+.avatar-picture {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+  align-items: center;
+  font-size: 50px;
+}
+
+.icon {
+  position: relative;
+  top: 1px;
+  left: 7px;
+}
+
+.btn-secondary {
+  width: 200px;
+  height: 50px;
+  align-self: center;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
