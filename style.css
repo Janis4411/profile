@@ -22,11 +22,13 @@ body {
   font-weight: bold;
 }
 
+/* comment to add changes */
+
 .card {
   background-color: white;
   color: white;
-  padding: 10px;
-  border: 1px solid lightgrey;
+  padding: 15px;
+  border: 3px solid lightgrey;
   border-radius: 9px;
   margin: 15px;
   box-shadow: 10px 5px 5px lightgrey;
@@ -42,7 +44,7 @@ body {
 }
 
 .avatar-picture {
-  height: 150px;
+  width: 150px;
   border-radius: 50%;
 }
 
@@ -55,10 +57,16 @@ body {
   font-size: 50px;
 }
 
+.icon:hover {
+ color: black;
+}
+
+
 .icon {
   position: relative;
   top: 1px;
   left: 7px;
+  color: grey;
 }
 
 .btn-secondary {
